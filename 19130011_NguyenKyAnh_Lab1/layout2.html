@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT 2</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'serif';
+        }
+        .container{
+            margin: auto;
+        }
+        p {
+            font-size: 2rem;
+            font-weight: bolder;
+        }
+        #header {
+            width: 900px;
+            height: 120px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        
+        #navi {
+            width: 900px;
+            height: 120px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        .contentBox{
+            width: 900px;
+            height: auto;
+            overflow: auto;
+            border: 1px solid black;
+        }
+        #index{
+            width: 20%;
+            /* height: 300px; */
+            /* border: 1px solid black; */
+            text-align: center;
+            float: left;
+            clear: right;
+        }
+        .contentBox p {
+            padding: 90px 0;
+        }
+        #content {
+            width: 79.5%;
+            border: 1px solid black;
+            text-align: center;
+            float: right;
+        }
+        #footer {
+            width: 900px;
+            height: 120px;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <section id = header  class="container">
+        <p>Header Section</p>
+    </section>
+    <nav id="navi" class="container">
+        <p>Navigation Bar</p>
+    </nav>
+    <section class="contentBox container">
+        <section id="index"  >
+            <p>Index</p>
+        </section>
+        <section id="content" >
+            <p>Content section</p>
+        </section>
+    </section>
+    <section id="footer" class="container">
+        <p>Footer Section</p>
+    </section>
+</body>
+</html>
