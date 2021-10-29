@@ -1,0 +1,280 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#page .container {
+    width: 1200px;
+    margin: 0 auto;
+}
+#section_header_2_dark {
+    background-color: #333333;
+    overflow: auto;
+}
+#section_header_2_dark nav {
+    width: 100%;
+    padding: 25px 50px;
+    overflow: auto;
+}
+
+#section_header_2_dark .navbar-header {
+    width: 40%;
+    float: left;
+    clear: right;
+}
+#section_header_2_dark .navbar-collapse {
+    /* width: 50%; */
+    float: right;
+    max-width: 60%;
+}
+#section_header_2_dark .navbar-collapse ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+#section_header_2_dark .navbar-collapse ul li{
+    list-style: none;
+    margin-left: 40px;
+    
+}
+#section_header_2_dark .navbar-collapse ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#section_header_2_dark .navbar-collapse ul li span {
+    color: #ffcc33;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#section_pix_4 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#section_pix_4 .has-video {
+    overflow: hidden;
+}
+#section_pix_4 .section_video {
+    width: 100%;
+    position: absolute;
+}
+#section_pix_4 .section_video video{
+    width: 100%;
+    position: relative;
+}
+#section_pix_4 .has-video .section_wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    padding: 100px 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+}
+#section_pix_4 .has-video .section_wrapper .title_style {
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 150px;
+}
+#section_pix_4 .has-video .section_wrapper .subtitle_style {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px 0;
+}
+#section_pix_4 .has-video .section_wrapper .email_subscribe {
+    background: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 550px;
+    padding: 20px 20px;
+    text-align: left;
+}
+#section_pix_4 .has-video .section_wrapper .email_subscribe #contact_form input {
+    background: #fff;
+    border-radius: 3px;
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 7px 20px;
+    width: 300px;
+    border: none;
+    margin-right: 8px;
+}
+#section_pix_4 .has-video .section_wrapper .email_subscribe #contact_form button {
+    background: rgb(241, 194, 50);
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#section_pix_4 .has-video .section_wrapper .note_st {
+    padding-top: 40px;
+    padding-bottom: 172px;
+}
+
+#section_university_5 .join_us_section {
+    padding: 30px 0;
+    overflow: auto;
+}
+#section_university_5 .join_us_section .sixteen {
+    width: 940px;
+    margin: auto;
+}
+#section_university_5 .join_us_section .sixteen .alpha {
+    width: 580px;
+    float: left;
+    clear: right;
+    padding: 30px 0; 
+}
+#section_university_5 .join_us_section .sixteen .alpha .psingle_item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#section_university_5 .join_us_section .sixteen .alpha .psingle_item .icon_st {
+padding-top: 10px;
+}
+#section_university_5 .join_us_section .sixteen .alpha .psingle_item .text_st {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    
+}
+#section_university_5 .join_us_section .sixteen .alpha .psingle_item .text_st p {
+    margin: 0 0 20px 0;
+}
+#section_university_5 .join_us_section .sixteen .alpha .psingle_item .text_st .title_st {
+    color: #000;
+    font-size: 22px;
+    line-height: 28px;
+}
+#section_university_5 .join_us_section .sixteen .alpha .psingle_item .text_st .subject_st{
+    color: #a9a9a9;
+    font-size: 16px;
+    line-height: 26px
+    
+}
+#section_university_5 .join_us_section .sixteen .omega {
+    width: 340px;
+    float: right;
+    background-color: #ebeaea;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+#section_university_5 .join_us_section .sixteen .omega .title-style {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+#section_university_5 .join_us_section .sixteen .omega .text-style {
+    font-size: 14px;
+    color: #a9a9a9;
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+#section_university_5 .join_us_section .sixteen .omega #contact_form {
+    font-size: 11px;
+    margin: 10px 20px;
+}
+#section_university_5 .join_us_section .sixteen .omega #contact_form input {
+    background: #fff;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #000;
+    font-size: 14px;
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+#section_university_5 .join_us_section .sixteen .omega #contact_form select {
+    background: #fff;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #000;
+    font-size: 14px;
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+#section_university_5 .join_us_section .sixteen .omega #contact_form button {
+    background: #7cc576;
+    padding: 10px 30px;
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    text-shadow: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#section_ecourse_7 .foot_st {
+    background: #eee;
+    padding: 30px 0;
+    overflow: auto;
+}
+#section_ecourse_7 .foot_st .sixteen{
+    width: 940px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+#section_ecourse_7 .foot_st .sixteen .alpha {
+    float: left;
+    clear: right;
+    text-align: center;
+}
+#section_ecourse_7 .foot_st .sixteen .alpha  span {
+    font-size: 16px;
+    color: #444;
+}
+#section_ecourse_7 .foot_st .sixteen .alpha .pixfort_st {
+    font-weight: bold;
+}
+#section_ecourse_7 .foot_st .sixteen .omega {
+    float: right;
+}
+#section_ecourse_7 .foot_st .sixteen .omega ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#section_ecourse_7 .foot_st .sixteen .omega ul li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+#section_ecourse_7 .foot_st .sixteen .omega ul li a{
+    text-decoration: none;
+    color: #888;
+    /* font-weight: bold; */
+    font-size: 1.5rem;
+}
